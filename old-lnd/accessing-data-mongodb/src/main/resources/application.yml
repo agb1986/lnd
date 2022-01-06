@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: accessing-data-mongodb
+
+server:
+  port: 8100

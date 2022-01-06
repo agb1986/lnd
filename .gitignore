@@ -21,3 +21,20 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+.apt_generated_tests/
+bin/
+
+**/node_modules
+webpack.generated.js
+.driver
+error-screenshots/
+.DS_Store
+pnpmfile.js
+
+target
+.settings
+.vscode
+.project
+.classpath
+.factorypath
