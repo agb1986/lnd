@@ -1,0 +1,19 @@
+### @name getHelloWorld
+GET /hello-world HTTP/1.1
+Host: localhost:8100
+
+### @name getItem
+GET /item HTTP/1.1
+Host: localhost:8100
+
+### @name getItemService
+GET /item-service HTTP/1.1
+Host: localhost:8100
+
+### @name getItemServiceJpa
+GET /item-jpa HTTP/1.1
+Host: localhost:8100
+
+### @name getItemServiceJpaId
+GET /item-jpa/1001 HTTP/1.1
+Host: localhost:8100
