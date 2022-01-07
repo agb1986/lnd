@@ -1,0 +1,35 @@
+
+'%dev':
+  greeting:
+    name: Quarkus for Spring Developer (dev)
+    message: Hello, This is Test
+    content:
+      prizeAmount: 10
+      recipients: 
+        - Jane
+        - John
+
+'%test':
+  greeting:
+    name: RESTEasy
+    message: Hello, This is Test
+    content:
+      prizeAmount: 10
+      recipients: 
+        - Jane
+        - John
+
+'%prod':
+  greeting:
+    name: Quarkus for Spring Developer (prod)
+    message: Hello, This is Prod
+    content:
+      prizeAmount: 10
+      recipients: 
+        - Jane
+        - John
+
+remote:
+  host: quarkus.io
+application:
+  host: ${HOST:${remote.host}}
