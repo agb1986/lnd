@@ -1,0 +1,19 @@
+{
+  "name": "practical_microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev-server": "nodemon src/start-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.3",
+    "uuid": "8.3.2",
+    "dotenv": "16.0.0"
+  }, 
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  }
+}
