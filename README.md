@@ -4,6 +4,8 @@ This repo is being used for my own personal learning and development. Any code w
 
 `quarkus/quarkus-spring` - [Quarkus for Spring Developers](https://developers.redhat.com/e-books/quarkus-spring-developers)
 
+`node-js/practical_microservices` - [Practical Microservices - Build Event-Driven Architectures with Event Sourcing and CQRS](https://pragprog.com/titles/egmicro/practical-microservices/)
+
 ## Old LnD
 
 `old-lnd/accessing-data-mongodb` - [Accessing Data with MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/)

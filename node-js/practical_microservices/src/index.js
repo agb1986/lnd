@@ -3,7 +3,7 @@ const createConfig = require('./config');
 const env = require('./env');
 
 const config = createConfig({ env });
-const app = createExpressApp(config, env);
+const app = createExpressApp({config, env});
 
 const start = () => {
     app.listen(env.port, signalAppStart);
